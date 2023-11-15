@@ -1,0 +1,115 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Color de fondo general */
+    color: #333;
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444; /* Color de fondo de la barra de navegación */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color del texto de los enlaces de navegación */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #444; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenido {
+    background-color: #fff; /* Color de fondo del contenido */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.contenido h2 {
+    color: #333; /* Color del texto del encabezado de contenido */
+}
+
+.contenido p {
+    margin-bottom: 15px;
+}
+
+.contenido ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contenido li {
+    margin-bottom: 5px;
+}
+
+/* Agrega más estilos según sea necesario */
+/* ... (otros estilos) ... */
+/* ... (otros estilos) ... */
+
+footer {
+    background-color: rgb(12, 12, 12)616; /* Color de fondo del pie de página */
+    color: #060606; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el pie de página */
+}
+
+/* ... (otros estilos) ... */
+
+
+footer {
+    background-color: #0a0a0a; /* Color de fondo del pie de página */
+    color: #101010; /* Color del texto del pie de página */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #0e0d0d; /* Color del texto del pie de página */
+    border-top: 1px solid #050505; /* Línea superior de color diferente */
+    padding-top: 10px; /* Espacio adicional en la parte superior del pie de página */
+}
+
+/* ... (otros estilos) ... */

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ciencias Naturales - Tu Plataforma Educativa</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Establece el alto mínimo de la ventana */
+        }
+
+        header, nav, footer {
+            width: 100%;
+            box-sizing: border-box;
+            flex-shrink: 0; /* Evita que los elementos flexibles se contraigan */
+        }
+
+        footer {
+            background-color: #f0f0f0; /* Ajusta el color de fondo según tus preferencias */
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        .contenido {
+            padding: 20px;
+            max-width: 600px; /* Ajusta el ancho según sea necesario */
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Tu Plataforma Educativa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="matematicas.html">Matemáticas</a></li>
+                <li><a href="ingles.html">Inglés</a></li>
+                <li><a href="sociales.html">Ciencias Sociales</a></li>
+                <li><a href="naturales.html">Ciencias Naturales</a></li>
+                <li><a href="espanol.html">Español</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido de Ciencias Naturales -->
+    <div id="naturales" class="contenido">
+        <h2>Ciencias Naturales</h2>
+        <p>Descubre los conceptos en ciencias naturales, como:</p>
+        <ul>
+            <li>Botánica: estudio de las plantas</li>
+            <li>Zoología: estudio de la fauna</li>
+            <li>Biología celular</li>
+            <li>Organismos unicelulares y pluricelulares</li>
+            <li>Sistemas del cuerpo humano</li>
+            <li>Ecología</li>
+            <li>Genética</li>
+            <li>Evolución</li>
+            <li>Biomas y ecosistemas</li>
+            <li>Ciencia ambiental</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Tu Plataforma Educativa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
